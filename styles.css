@@ -1,0 +1,473 @@
+body {
+  margin: 0;
+  font-family: "Epilogue", sans-serif;
+}
+
+.site {
+  padding: 60px;
+}
+
+:root {
+  --animate-duration: 1.5s;
+}
+
+.whatsapp-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.contact-icon-fixed {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d2d2d;
+  border-radius: 100%;
+  right: 5%;
+  bottom: 5%;
+  z-index: 3000;
+}
+
+.contact-icon-fixed:hover {
+  background-color: blue;
+}
+
+.sun-moon {
+  width: 45px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* IMAGES */
+
+.header-img {
+  width: 480px;
+  height: 360px;
+}
+
+.header-img-about {
+  width: 480px;
+  height: 360px;
+}
+
+.work-img {
+  width: 600px;
+  height: 431px;
+  transition: 0.5s all ease-in-out;
+  background-size: 100% 100%;
+  border-radius: 2%;
+}
+
+.work-img:hover {
+  transform: scale(0.99);
+}
+
+.test-client-img {
+  width: 50px;
+  height: 51px;
+  border-radius: 100%;
+}
+
+.social-icons {
+  width: 36px;
+  height: 37px;
+}
+
+/* LINKS AND BTNS */
+
+a {
+  text-decoration: none;
+}
+
+button a {
+  color: #fff;
+}
+
+.site button:hover {
+  background-color: blue;
+}
+
+/* NAVBAR */
+
+.navbar a:hover {
+  color: blue;
+}
+
+.navbar {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.navbar-nav {
+  margin-left: 80%;
+}
+
+.nav-logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+.nav-link {
+  font-size: 17px;
+  color: #2d2d2d;
+}
+
+/* CONTAINERS */
+
+.flex-container {
+  display: flex;
+}
+
+.about-container {
+  gap: 24px;
+  margin: 0px auto;
+  justify-content: center;
+}
+
+.logo-container {
+  gap: 50px;
+  margin: 24px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-container {
+  gap: 24px;
+  margin: 24px auto;
+  justify-content: center;
+}
+
+.skill-div {
+  text-align: center;
+}
+
+.work-house {
+  flex-direction: column;
+  gap: 100px;
+}
+
+.work-container {
+  gap: 24px;
+  margin: 24px auto;
+  justify-content: center;
+}
+
+.testimonial-container {
+  gap: 24px;
+  margin: 24px auto;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-container {
+  gap: 50px;
+  margin: 0px auto 24px auto;
+  justify-content: center;
+}
+
+.social-logo-container {
+  gap: 24px;
+}
+
+.name-email-container {
+  flex-direction: column;
+  gap: 15px;
+}
+
+.margin-top-200 {
+  margin-top: 200px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.margin-bottom-100 {
+  margin-bottom: 100px;
+}
+
+.client-detail-div {
+  gap: 20px;
+}
+
+/* CONTACT-PG */
+
+.contact-form {
+  justify-content: center;
+}
+
+.name-email-msg {
+  height: auto;
+  background-color: #f3f3f3;
+  color: #2d2d2d;
+  border: #f3f3f3;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px;
+  width: 500px;
+}
+
+.name-email-form {
+  background-color: #f3f3f3;
+  color: #2d2d2d;
+  border: #f3f3f3;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px;
+  width: 500px;
+  height: 39px;
+}
+
+.btn-contact-form {
+  height: 58px;
+  background-color: #2d2d2d;
+  color: #fff;
+  font-size: 20px;
+  width: 500px;
+}
+
+.btn-contact-form:hover{
+  background-color: blue;
+}
+
+.icons-about {
+  justify-content: center;
+  gap: 10px;
+}
+
+/* About-pg */
+
+.About {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-img-div {
+  width: 300px;
+}
+
+/* WORK-PG */
+
+.work-hire {
+  justify-content: center;
+  text-align: center;
+}
+
+/* GENERAL */
+
+p {
+  font-size: 17px;
+  color: #2d2d2d;
+  line-height: 2;
+}
+
+/* HEADER */
+
+.header-h3 {
+  font-size: 20px;
+  color: #2d2d2d;
+}
+
+.header-h1 {
+  font-size: 68px;
+  color: #2d2d2d;
+  margin-top: 30px;
+}
+
+.header-btn {
+  background-color: #2d2d2d;
+  color: white;
+  width: 211px;
+  height: 78px;
+  font-size: 25px;
+  margin-top: 30px;
+  border: 1px solid red;
+}
+
+/* SKILL & WORK & TESTIMONIAL & CONTACT SECTIONS*/
+
+.skill-h3 {
+  font-size: 27px;
+  color: #2d2d2d;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.h3-work-testimonial {
+  font-size: 32px;
+  color: #2d2d2d;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.work-h4 {
+  font-size: 20px;
+  color: #2d2d2d;
+  margin-top: 30px;
+}
+
+.Testimonial-p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #2d2d2d;
+}
+
+.Testimonial-div {
+  background-color: #f3f3f3;
+  padding: 30px;
+  width: 394px;
+  height: 330px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 3%;
+}
+
+.h4-testimonial {
+  margin-top: 7px;
+}
+
+.contact-heading {
+  font-size: 32px;
+  color: #2d2d2d;
+  margin-bottom: 10px;
+}
+
+.name-email {
+  background-color: #f3f3f3;
+  color: #2d2d2d;
+  border: #f3f3f3;
+  font-size: 15px;
+  padding: 10px;
+  width: 300px;
+  height: 39px;
+}
+
+.btn-contact {
+  width: 199px;
+  height: 58px;
+  background-color: #2d2d2d;
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid red;
+}
+
+.contact-house {
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* MEDIA-QUERY */
+
+/* RESPONSIVENESS */
+
+/* 1340px */
+
+@media (max-width: 1300px) {
+  .work-img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .site {
+    padding: 30px;
+  }
+
+  .flex-container {
+    flex-wrap: wrap;
+  }
+
+  .header-img {
+    width: 340px;
+    height: 360px;
+  }
+
+  .header-img-about {
+    width: 300px;
+    height: 360px;
+  }
+
+  .navbar {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .navbar-nav {
+    margin-left: 70%;
+  }
+
+  .about-container {
+    gap: 100px;
+  }
+
+  .work-container {
+    gap: 150px;
+  }
+
+  .form {
+    justify-self: flex-start;
+  }
+
+  .contact-container {
+    justify-content: stretch;
+  }
+
+  .work-img {
+    width: 450px;
+  }
+
+  .Testimonial-div {
+    width: 450px;
+  }
+
+  .name-email-msg {
+    width: 300px;
+  }
+
+  .name-email-form {
+    width: 300px;
+  }
+
+  .btn-contact-form {
+    width: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .work-img {
+    width: 350px;
+  }
+
+  .Testimonial-div {
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .work-img {
+    width: 310px;
+    height: 340px;
+  }
+
+  .Testimonial-div {
+    width: 310px;
+  }
+}
+
+/* DEVELOPED BY BA1G ON 10 FEB 2024 */
+
+/* UPDATED BY BA1G ON 5 MAY 2024 */
